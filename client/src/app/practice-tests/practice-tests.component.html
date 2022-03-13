@@ -1,0 +1,48 @@
+<div class="card border-info mb-3 mt-3 pt-3">    
+    <h3 class="card-header">Practice Tests</h3>
+    <div class="card-body pt-4">
+    <div [hidden]="testStarted" class="instructions"> 
+        <h5 class="card-title">Instructions</h5>  
+        <ul class="card-item">
+            <li>Each Practice Test contains 10 questions.</li>
+            <li>Read the questions carefully and answer them within the given time of 5 minutes.</li>
+            <li>Click Start button for desired test to start the test.</li>
+        </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <button (click)="startJsTest()" style="margin: 20px; width: 35%;"class="btn btn-warning mt-3 mb-3"> JS Test</button>   
+            </div>
+            <div class="col-md-4">
+                <button (click)="startHtmlTest()" style="margin: 20px; width: 35%;"class="btn btn-warning mt-3 mb-3"> HTML Test</button>   
+            </div>
+            <div class="col-md-4">
+                <button (click)="startCssTest()" style="margin: 20px; width: 35%;"class="btn btn-warning mt-3 mb-3"> CSS Test</button>   
+            </div>
+        </div>
+    </div>
+    <div class="practice-test" *ngIf= "testStarted">
+        <li class="list-group-item d-flex pr-2 justify-content-start align-items-start">
+            <div class="row mb-4 ms-2">
+                <div class="col-md-12 mt-3 mb-3">
+                    <label>
+                    <span style="padding: 5px;"> {{count}} ).</span> {{currentQuestion.item.question}}
+                    </label>
+                </div>
+                <div class="options">
+                    <ul *ngFor="let option of currentQuestion.item.options">
+                        <li class="col-md-12 mt-3 mb-3" (click)="chkOption(option)">
+                            <div class="card"> a) {{option.text}}  </div>
+                        </li>                                                       
+                    </ul>
+                </div>                 
+            </div>    
+        </li>        
+        <div class="timer-row">
+            <button [disabled]="count >= questions.length ? true: false" (click)="cancel()" style="margin: 10px;" class="btn btn-warning mt-3 mb-3">Cancel</button> 
+            <label> Question <span>{{count}}</span> of <span>{{questions.length}}</span></label>
+            <span class="time">Time Elapsed: {{this.timeElapsed}}</span>
+            <button (click)="showResults()" style="margin: 20px;"class="btn btn-warning mt-3 mb-3">Submit Test</button> 
+        </div>
+    </div>
+    </div>    
+</div>                

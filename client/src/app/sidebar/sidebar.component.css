@@ -1,0 +1,17 @@
+#sidebar-wrapper {
+    background-color: #b1b8b8;
+    max-height: 600px;
+    max-width: 175px;
+    overflow-y: scroll;
+}
+
+.list-group-item {
+    background-color: #068a8a;
+    color: rgb(231, 234, 238);
+}
+
+.nav-item {
+    color: white;
+    margin: 5px;
+    padding: 2px;
+}
