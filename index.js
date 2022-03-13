@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 const app = express();
 var cors = require('cors');
-const multer = require('multer');
 const path = require('path');
 
 app.use(bodyParser.json());
@@ -13,8 +12,6 @@ app.use(cors());
 app.use(express.static(path.join(__dirname,"angular-client", "build")));
 
 const fs = require('fs');
-
-const excelToJson = require('convert-excel-to-json');
 
 const { validateJWT } = require('./utils/jwt');
 app.use(express.json());
