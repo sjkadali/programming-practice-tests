@@ -2,10 +2,13 @@
   "name": "programming-test-practice",
   "version": "1.0.0",
   "description": "Math test application",
+  "engines": {
+    "node": "16.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "nodenpm start index.js",
     "heroku-postbuild": "cd angular-client && npm install --only=dev && npm install && npm run build"
   },
   "repository": {

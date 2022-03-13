@@ -12,7 +12,6 @@ try{
 const tests = JSON.parse(fs.readFileSync(`${__dirname}/../_seedInfo/jsTests.json`, 'utf-8'));
 console.log(tests);
 } catch(err) {
-    console.log(err);
-    return;
+    console.log(err);    
 }
 
