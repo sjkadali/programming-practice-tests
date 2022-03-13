@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
+require('dotenv').config();
 const app = express();
 var cors = require('cors');
 const multer = require('multer');
@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-app.use(express.static(path.join(__dirname,'./public')));
+app.use(express.static(path.join(__dirname,"angular-client", "build")));
 
 const fs = require('fs');
 
@@ -55,4 +55,8 @@ app.use('/secure/tests', tests);
 
 require('./dbs/mongo_db');
 
-app.listen(3000, ()=> console.log('Server started on port 3000'));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "angular-client", "build", "index.html"));
+});
+
+app.listen(process.env.PORT || 8000, ()=> console.log('Server started on port 3000'));

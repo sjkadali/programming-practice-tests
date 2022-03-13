@@ -1,8 +1,0 @@
-<div class="border-right" id="sidebar-wrapper"  [ngClass]="status ? 'show' : 'hide'">
-    
-    <div class="list-group">
-      <a routerLink="dashboard" class="list-group-item ">Dashboard</a>
-      <a *ngIf="isAdmin()" routerLink="admin" class="list-group-item  "> Admin</a>
-      <a class="list-group-item" routerLink="../practice-tests" routerLinkActive="active">PracticeTests</a>      
-    </div>
-</div>
