@@ -1,0 +1,26 @@
+h1 {
+    background-color: #04998d;
+    color: #fff;
+}
+
+img {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.navbar-light {
+    background-color: #04998d;
+}
+
+.nav-item {
+    align-items: left;
+    color: #fff;
+    font-size:large;
+    padding: 10px;
+}
+
+a {
+    color: rgb(118, 207, 195);
+}

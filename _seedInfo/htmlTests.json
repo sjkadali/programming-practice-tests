@@ -1,0 +1,91 @@
+[
+    {
+    "question": "which tags used to define HTML headings?",
+    "options": [
+                {"text": "<h1> to <h6> tags ", "correct": true},
+                {"text":"<h1> to <h8> tags", "correct": false},
+                {"text": "<h1> to <h9> tags", "correct": false},
+                {"text": "<h1> to <h7> tags", "correct": false}
+            ]
+    },
+    {
+      "question": "which are the global attributes in HTML?",
+      "options": [
+                {"text": "accept, class, contenteditable, data-*, dir, style, id, draggable, hidden, lang, spellcheck, tabindex, title, translate", "correct": false}, 
+                {"text": "action, class, contenteditable, data-*, dir, style, id, draggable, hidden, lang, spellcheck, tabindex, title, translatet", "correct": false}, 
+                {"text": "accesskey, class, contenteditable, data-*, dir, style, id, draggable, hidden, lang, spellcheck, tabindex, title, translate", "correct": true},     
+                {"text": "charset, class, contenteditable, data-*, dir, style, id, draggable, hidden, lang, spellcheck, tabindex, title, translate", "correct": false}
+            ]      
+    },
+    {
+     "question": "The 'checked' attribute is used on which element?",
+      "options": [
+                  {"text":"<select>", "correct": false},
+                  {"text":"<input>", "correct": true}, 
+                  {"text":"<option>", "correct": false},
+                  {"text":"<checkbox>", "correct": false}
+                ]      
+    },
+    {
+      "question": "Which tag defines the root of an HTML document?",
+      "options": [
+                  {"text": "<head>", "correct": false},
+                  {"text": "<header>", "correct": false},
+                  {"text": "<!DOCTYPE>", "correct": false},
+                  {"text": "<html>", "correct": true}
+                ]
+    },
+    {
+      "question": "Which tag defines a container for multiple image resources?",
+      "options": [{"text": "<img>", "correct": false}, 
+                  {"text": "<picture>", "correct": true},
+                  {"text": "<images>", "correct": false},
+                  {"text": "None of these", "correct": false}
+                ]
+    },
+    {
+      "question": "Which tag specifies text that is no longer correct, accurate or relevant?",
+      "options": [
+                  {"text": "<del>","correct": false},
+                  {"text": "<wrong>","correct": false}, 
+                  {"text": "<s>", "correct": true},
+                  {"text": "None of these", "correct": false}
+                ]
+    },
+    {
+      "question": "Which tag defines the title of a creative work?",
+      "options": [
+                  {"text": "<cite>", "correct": true}, 
+                  {"text": "<title>", "correct": false},
+                  {"text": "<caption>", "correct": false},
+                  {"text": "None of these", "correct": false}
+                ]
+    },
+    {
+      "question": "The 'alt' attribute is used with which elements?",
+      "options": [
+                  {"text": "<table>,<input>, <canvas>", "correct": false}, 
+                  {"text": "<canvas>, <input>", "correct": false},
+                  {"text": "<table>, <img>", "correct": false},
+                  {"text": "<area>, <img>, <input>", "correct": true}
+                ]
+    },
+    {
+      "question": "The 'colspan' attribute is used with which elements?",
+      "options": [
+                  {"text": "<td>,<th>", "correct": true}, 
+                  {"text": "<table>,<td>,<th>", "correct": false},
+                  {"text": "<table>,<th>", "correct": false},
+                  {"text": "None of these", "correct": false}
+                ]
+    },
+    {
+      "question": "The 'controls' attribute is used with which elements? ",
+      "options": [
+                  {"text": "<img>, <audio>", "correct": false}, 
+                  {"text": "<img>, <audio>,<video>", "correct": false},
+                  {"text": "<img>,<video>", "correct": false},
+                  {"text": "<audio>,<video>", "correct": true}
+                ]
+    }
+  ]

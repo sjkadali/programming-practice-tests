@@ -1,0 +1,21 @@
+<div class="test-modal">
+  <div class="modal-header">
+    <h4 class="modal-title">{{modal_title}}</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal('dismiss')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <ul>
+      <li><label>Correct: </label> {{modal_content.correct}}</li>
+      <li><label>Incorrect: </label>{{modal_content.incorrect}}</li>
+      <li><label>Unanswered:</label>{{modal_content.unanswered}}</li>
+    </ul>
+    <h5> Score:  {{modal_content.correct}} / {{modal_content.totalScore}}</h5> <mat-icon>file</mat-icon>
+    <button *ngIf="!hidden" ><mat-icon  color = "primary">thumb_up</mat-icon></button>
+    <h5> {{message}}</h5>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-warning" dat-dismiss="modal" (click)="closeModal('Close')">Close</button>
+  </div>
+</div>

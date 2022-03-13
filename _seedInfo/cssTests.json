@@ -1,0 +1,92 @@
+[
+    {
+    "question": "Simple selectors are used for",
+    "options": [
+                {"text": "selecting elements based on a certain state", "correct": false},
+                {"text":"selecting and styling a part of an element", "correct": false},
+                {"text": "selecting elements based on name, id, class", "correct": true},
+                {"text": "select elements based on a specific relationship between them", "correct": false}
+            ]
+    },
+    {
+      "question": "Pseudo-class selectors are used to",
+      "options": [
+                {"text": "select elements based on name, id, class", "correct": false}, 
+                {"text": "select elements based on a specific relationship between them", "correct": false}, 
+                {"text": "None of the options given", "correct": false},     
+                {"text": "select elements based on a certain state", "correct": true}
+            ]      
+    },
+    {
+     "question": "Pseudo-elements selectors are used to",
+      "options": [
+                  {"text":"select and style a part of an element", "correct": true},
+                  {"text":"select elements based on a specific relationship between them", "correct": false}, 
+                  {"text":"None of the options given", "correct": false},
+                  {"text":"select elements based on a certain state", "correct": false}
+                ]      
+    },
+    {
+      "question": "Combinator selectors are used to",
+      "options": [
+                  {"text":"select and style a part of an element", "correct": false},
+                  {"text":"select elements based on a specific relationship between them", "correct": true}, 
+                  {"text":"None of the options given", "correct": false},
+                  {"text":"select elements based on a certain state", "correct": false}
+              ]      
+    },
+    {
+      "question": "Attribute selectors are used to",
+      "options": [
+                  {"text":"select and style a part of an element", "correct": false},
+                  {"text":"select elements based on a specific relationship between them", "correct": false}, 
+                  {"text":"select elements based on an attribute or attribute value", "correct": true},
+                  {"text":"select elements based on a certain state", "correct": false}
+              ]      
+    },
+    {
+      "question": "#para1 { \n text-align: left; \n color: red; \n  }  \n In the above example, which of the following selectors is used?",
+       "options": [
+                    {"text": "Attribute selector", "correct": false},
+                    {"text": "Combinator selector", "correct": false},
+                    {"text": "Pseudo-class selector", "correct": false},
+                    {"text": "Simple selector","correct": true}
+                  ]    
+    },
+    {
+      "question": "input:focus { \n background-color: gray; \n  }  \n In the above example, which of the following selectors is used?",
+      "options": [
+                   {"text": "Attribute selector", "correct": false},
+                   {"text": "Combinator selector", "correct": false},
+                   {"text": "Pseudo-class selector", "correct": true},
+                   {"text": "Simple selector","correct": false}
+                  ]    
+    },
+    {
+      "question": "div p { \n background-color: yellow;\n  }  \n In the above example, which of the following selectors is used?",
+      "options": [
+                   {"text": "Attribute selector", "correct": false},
+                   {"text": "Combinator selector", "correct": true},
+                   {"text": "Pseudo-class selector", "correct": false},
+                   {"text": "Simple selector","correct": false}
+                  ]    
+    },
+    {
+      "question": "h2 > p { \n color: blue; \n background-color: yellow;\n  }  \n In the above example, which of the following selectors is used?",
+      "options": [
+                   {"text": "Attribute selector", "correct": false},
+                   {"text": "Adjacent Sibling  selector", "correct": false},
+                   {"text": "Pseudo-class selector", "correct": false},
+                   {"text": "Child selector","correct": true}
+                  ]
+    },
+    {
+      "question": "h2 ~ p { \n color: blue; \n background-color: yellow;\n  }  \n In the above example, which of the following selectors is used?",
+      "options": [
+                   {"text": "General Sibling selector", "correct": false},
+                   {"text": "Adjacent Sibling  selector", "correct": false},
+                   {"text": "Pseudo-class selector", "correct": false},
+                   {"text": "Child selector","correct": false}
+                  ]
+    }
+  ]

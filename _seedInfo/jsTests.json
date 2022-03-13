@@ -1,0 +1,92 @@
+  [
+        {
+        "question": "what are the different data types defined in JS",
+        "options": [
+                    {"text": "int, float, string, object, null", "correct": false},
+                    {"text":"Boolean, null, undefined, Number, BigInt, String, Symbol, Object", "correct": true},
+                    {"text": "Boolean, decimal, Number, String, null, Object", "correct": false},
+                    {"text": "Boolean, decimal, integer, String, undefined, Object", "correct": false}
+                ]
+        },
+        {
+          "question": "which of these types of variable declarations have block level scope?",
+          "options": [
+                    {"text": "var, let, const", "correct": false}, 
+                    {"text": "var, const", "correct": false}, 
+                    {"text": "let, const", "correct": true},     
+                    {"text": "var, let", "correct": false}
+                ]      
+        },
+        {
+         "question": "let str = 'oats, coffee, tea'; \n What will be the output of 'document.getElementById('demo').innerHTML = str.slice(0,5);?",
+          "options": [
+                      {"text":"oats, c", "correct": false},
+                      {"text":"oats, co", "correct": false}, 
+                      {"text":"oats", "correct": false},
+                      {"text":"oats,", "correct": true}
+                    ]      
+        },
+        {
+          "question": "Which one declares a function-scoped or globally-scoped variable?",
+          "options": [
+                      {"text": "var", "correct": true},
+                      {"text": "let", "correct": false},
+                      {"text": "const", "correct": false},
+                      {"text": "var, const", "correct": false}
+                    ]
+        },
+        {
+          "question": "Which data type has instances that are unique and immutable?",
+          "options": [{"text": "null", "correct": false}, 
+                      {"text": "Number", "correct": false},
+                      {"text": "Symbol", "correct": true},
+                      {"text": "None of these", "correct": false}
+                    ]
+        },
+        {
+          "question": "let str = 'oats, coffee, tea'; \n What will be the output of 'document.getElementById('demo').innerHTML = str.substring(6, 13);?",
+          "options": [
+                      {"text": "coffee","correct": true},
+                      {"text": "index out of rang","correct": false}, 
+                      {"text": "method not defined", "correct": false},
+                      {"text": "offee,", "correct": false}
+                    ]
+        },
+        {
+          "question": "let str = 'orange, apple, grapes'; \n What will be the output of 'document.getElementById('demo').innerHTML = str.substr(1, 4)';?",
+          "options": [
+                      {"text": "ora", "correct": false}, 
+                      {"text": "appl", "correct": false},
+                      {"text": "rang", "correct": true},
+                      {"text": "orange,", "correct": false}
+                    ]
+        },
+        {
+          "question": "What will be the output of 'console.log(Array.from('fruits')); '?",
+          "options": [
+                      {"text": "Array ['fruits']", "correct": false}, 
+                      {"text": "Array ['f', 'r','u','i', 't', 's']", "correct": true},
+                      {"text": "method not defined", "correct": false},
+                      {"text": "Error: items is undefined,", "correct": false}
+                    ]
+        },
+        {
+          "question": "const array1 = [1, 2, [3, 4, [5, 6]]]; \n  What will be the output of  array1.flat();  ? ",
+          "options": [
+                      {"text": "Array [1, 2, 3, 4, [5, 6]]", "correct": true}, 
+                      {"text": "Array [1, 2, 3, 4, 5, 6]", "correct": false},
+                      {"text": "Uncaught TypeError: array1.flast is not a function", "correct": false},
+                      {"text": "Uncaught SyntaxError,", "correct": false}
+                    ]
+        },
+        {
+          "question": "What will be the output of 'Array.of(3, 4, 5); '? ? ",
+          "options": [
+                      {"text": "[3], [4], [5]", "correct": false}, 
+                      {"text": "method not defined", "correct": false},
+                      {"text": "[3, 4, 5]", "correct": true},
+                      {"text": "Error: items is undefined", "correct": false}
+                    ]
+        }
+      ]
+   
