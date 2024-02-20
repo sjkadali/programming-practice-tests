@@ -1,5 +1,5 @@
 # ProgrammingPracticeTests
-A web application for programming practice tests created using MEAN stack.
+A web application for programming practice tests created using MEAN stack- MongoDB, Express, Angular & Node.
 
 
 
